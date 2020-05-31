@@ -10,7 +10,8 @@ void processSelection(); //declaring the function processSelection()
 int main(){
 	deployMenu();
 	processSelection();
-
+	
+	cin.get();
 	return 0;
 }
 
