@@ -11,6 +11,15 @@ int main(){
 	deployMenu();
 	processSelection();
 	
+	//Flushing the buffer
+	int c;
+	do {
+		c=cin.get();
+	}while(c!='\n'&&c!=EOF);
+	
+
+
+	//waiting for the user to press Enter
 	cin.get();
 	return 0;
 }
